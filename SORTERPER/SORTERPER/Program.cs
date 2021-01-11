@@ -17,11 +17,10 @@ namespace SORTERPER
             {
                 for (int j = 0; j < 2; j++)
                 {
-                    //game.Cards.Add(new Card(i));
-                    Console.WriteLine(i);
+                    game.Cards.Add(new Card(i));
                 }
             }
-            Console.WriteLine("Black Peter");
+            game.Cards.Add(new Card(0));
 
             Console.ReadKey();
         }
