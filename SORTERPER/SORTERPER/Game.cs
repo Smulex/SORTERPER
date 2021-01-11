@@ -15,10 +15,10 @@ namespace SORTERPER
         {
             if (card1.Number == card2.Number)
             {
-                List<Card> itemsToRemove = new List<Card>();
-                itemsToRemove.Add(card1);
-                itemsToRemove.Add(card2);
-
+                List<Card> itemsToRemove = new List<Card>
+                {
+                    card1, card2
+                };
 
                 foreach (Card value in itemsToRemove)
                 {
@@ -34,24 +34,27 @@ namespace SORTERPER
 
         public void CheckForPair(Player player)
         {
+            //Checking all the card on the hand
             for (int i = 0; i < player.Hand.Count; i++)
             {
                 for (int j = 0; j < player.Hand.Count; j++)
                 {
+                    //Checks that the card is not the same
                     if (player.Hand[i] != player.Hand[j])
                     {
                         if (player.Hand[i].Number == player.Hand[j].Number)
                         {
-                            List<Card> itemsToRemove = new List<Card>();
-                            itemsToRemove.Add(player.Hand[j]);
-                            itemsToRemove.Add(player.Hand[i]);
-
+                            List<Card> itemsToRemove = new List<Card>
+                            {
+                                player.Hand[j], player.Hand[i]
+                            };
 
                             foreach (Card value in itemsToRemove)
                             {
                                 player.Hand = player.Hand.Where(x => x != value).ToList();
                             }
 
+                            //Checks if the list is empty
                             if (!player.Hand.Any())
                             {
                                 player.Done = true;
@@ -73,9 +76,9 @@ namespace SORTERPER
             //Adding all the cards in a standard deck of 25 cards.
             for (int i = 1; i <= 12; i++)
             {
-                for (int j = 0; j < 2; j++)
+                foreach (Card.VariationType variation in (Card.VariationType[])Enum.GetValues(typeof(Card.VariationType)))
                 {
-                    Cards.Add(new Card(i));
+                    Cards.Add(new Card(i, variation));
                 }
             }
             Cards.Add(new Card(0));

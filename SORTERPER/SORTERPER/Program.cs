@@ -10,6 +10,9 @@ namespace SORTERPER
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+
+            game.AddCards();
 
             Console.ReadKey();
         }
