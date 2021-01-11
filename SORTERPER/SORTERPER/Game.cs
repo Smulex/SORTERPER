@@ -16,8 +16,8 @@ namespace SORTERPER
             if (card1.Number == card2.Number)
             {
                 List<Card> itemsToRemove = new List<Card>();
-                itemsToRemove.Add(player.Hand[j]);
-                itemsToRemove.Add(player.Hand[i]);
+                itemsToRemove.Add(card1);
+                itemsToRemove.Add(card2);
 
 
                 foreach (Card value in itemsToRemove)
