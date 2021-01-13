@@ -1,0 +1,15 @@
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\bin\Debug\SortePerUI.exe.config
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\bin\Debug\SortePerUI.exe
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\bin\Debug\SortePerUI.pdb
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.csprojAssemblyReference.cache
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\MainWindow.g.cs
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\App.g.cs
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI_MarkupCompile.cache
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI_MarkupCompile.lref
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\MainWindow.baml
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.g.resources
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.Properties.Resources.resources
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.csproj.GenerateResource.cache
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.csproj.CoreCompileInputs.cache
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.exe
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.pdb
