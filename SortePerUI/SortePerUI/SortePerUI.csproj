@@ -63,12 +63,16 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Card.cs" />
+    <Compile Include="CardDal.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,31 +99,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Layer 0.png" />
-    <Resource Include="Assets\Layer 1.png" />
-    <Resource Include="Assets\Layer 10.png" />
-    <Resource Include="Assets\Layer 11.png" />
-    <Resource Include="Assets\Layer 12.png" />
-    <Resource Include="Assets\Layer 13.png" />
-    <Resource Include="Assets\Layer 14.png" />
-    <Resource Include="Assets\Layer 15.png" />
-    <Resource Include="Assets\Layer 16.png" />
-    <Resource Include="Assets\Layer 17.png" />
-    <Resource Include="Assets\Layer 18.png" />
-    <Resource Include="Assets\Layer 19.png" />
-    <Resource Include="Assets\Layer 2.png" />
-    <Resource Include="Assets\Layer 20.png" />
-    <Resource Include="Assets\Layer 21.png" />
-    <Resource Include="Assets\Layer 22.png" />
-    <Resource Include="Assets\Layer 24.png" />
-    <Resource Include="Assets\Layer 25.png" />
-    <Resource Include="Assets\Layer 26.png" />
-    <Resource Include="Assets\Layer 3.png" />
-    <Resource Include="Assets\Layer 4.png" />
-    <Resource Include="Assets\Layer 5.png" />
-    <Resource Include="Assets\Layer 6.png" />
-    <Resource Include="Assets\Layer 8.png" />
-    <Resource Include="Assets\sp.png" />
+    <Content Include="Assets\12B.png" />
+    <Resource Include="Assets\8B.png" />
+    <Resource Include="Assets\1A.png" />
+    <Resource Include="Assets\4B.png" />
+    <Resource Include="Assets\5A.png" />
+    <Resource Include="Assets\5B.png" />
+    <Resource Include="Assets\6A.png" />
+    <Resource Include="Assets\6B.png" />
+    <Resource Include="Assets\7A.png" />
+    <Resource Include="Assets\7B.png" />
+    <Resource Include="Assets\8A.png" />
+    <Resource Include="Assets\Back.png" />
+    <Resource Include="Assets\9A.png" />
+    <Resource Include="Assets\1B.png" />
+    <Resource Include="Assets\9B.png" />
+    <Resource Include="Assets\10A.png" />
+    <Resource Include="Assets\10B.png" />
+    <Resource Include="Assets\11A.png" />
+    <Resource Include="Assets\11B.png" />
+    <Resource Include="Assets\12A.png" />
+    <Resource Include="Assets\2A.png" />
+    <Resource Include="Assets\2B.png" />
+    <Resource Include="Assets\3A.png" />
+    <Resource Include="Assets\3B.png" />
+    <Resource Include="Assets\4A.png" />
+    <Resource Include="Assets\BlackPeter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,3 +13,4 @@ C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePe
 C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.csproj.CoreCompileInputs.cache
 C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.exe
 C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI.pdb
+C:\Users\chri45i4\source\repos\SORTERPER\SortePerUI\SortePerUI\obj\Debug\SortePerUI_Content.g.cs
