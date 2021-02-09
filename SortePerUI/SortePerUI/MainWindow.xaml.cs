@@ -146,13 +146,15 @@ namespace SortePerUI
         private void CardMouseClick(object sender, MouseButtonEventArgs e)
         {
             Image img = (Image)sender;
+            img.MouseEnter -= CardMouseEnter;
+            img.MouseLeave -= CardMouseLeave;
             if (img.Name != "Back")
             {
-                img.Margin = new Thickness { Bottom = 20 };
+                img.Margin = new Thickness { Bottom = 40 };
             }
             else
             {
-                img.Margin = new Thickness { Top = 20 };
+                img.Margin = new Thickness { Top = 40 };
             }
         }
 
@@ -161,11 +163,11 @@ namespace SortePerUI
             Image img = (Image)sender;
             if (img.Name != "Back")
             {
-                img.Margin = new Thickness { Bottom = -20 };
+                img.Margin = new Thickness { Bottom = 0 };
             }
             else
             {
-                img.Margin = new Thickness { Top = -20 };
+                img.Margin = new Thickness { Top = 0 };
             }
         }
 
